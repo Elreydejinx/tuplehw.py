@@ -14,3 +14,12 @@ united_routes = our_routes.intersection(competitor_routes )
 unique_routes = our_routes.symmetric_difference(competitor_routes)
 print(ateam_universal_airlines)
 print(united_routes)
+
+
+# Custom ID numbers 
+
+customer_ids = ["C001", "C002", "C003", "C002", "C001", "C004"]
+set_IDs = set(customer_ids)
+print(set_IDs)
+customer_ids = list(set_IDs)
+print(customer_ids)
